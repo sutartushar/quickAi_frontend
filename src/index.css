@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: Poppins, Roboto, "Outfit", sans-serif;
+}
+
+#hero-bg {
+  background-image: url("./assets/gradientBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.reset-tw,.reset-tw *{
+  all:revert !important;
+}
+
+.cl-drawerRoot{
+  z-index: 10;
+}
